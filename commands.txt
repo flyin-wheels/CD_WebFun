@@ -1,0 +1,23 @@
+In the Linux terminal:
+cd Desktop
+mkdir test
+cd test
+touch index.html
+touch styles.css
+touch commands.txt
+cp index.html index_2.html
+cd ..
+mkdir destination
+mv /test/index_2.html /destination/index_2.html
+cd test
+rm styles.css
+ls -a
+cd ..
+cd destination
+ls -a
+cd ..
+rm -r destination
+cd test
+nano commands.txt
+
+

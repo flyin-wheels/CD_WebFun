@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optional JavaScript -->
+    <link rel="stylesheet" type="text/css" href="JT-jQuery.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>console.log($)</script>
+    <script> $(document).ready(function () {
+        $('.click input').click(function () {
+             alert("You have clicked a button!");
+        });
+        $('.hide input').click(function () {
+            $(".hide p").hide("slow");
+        });
+        $('.show input').click(function () {
+             $(".show p").show("slow");
+         });
+        $('.toggle input').click(function () {
+             $(".toggle p").toggle("slow");
+        });
+        $('.slideDown input').click(function () {
+             $(".slideDown h1").slideDown("slow");
+        });
+         $('.slideUp input').click(function () {
+            $(".slideUp h1").slideUp("slow");
+        });
+        $('.slideToggle input').click(function () {
+            $(".slideToggle h1").slideToggle("slow");
+        });
+        $('.fadeIn input').click(function () {
+            $(".fadeIn h1").fadeIn("slow");
+        });
+        $('.fadeOut input').click(function () {
+            $(".fadeOut h1").fadeOut("slow");
+        });
+        $('.addClass input').click(function () {
+                $(".addClass h1").addClass("gold");
+            });
+         $('.before input').click(function () {
+            $(".before").before("<h1>You clicked the before button!</h1>");
+        }); 
+        $('.after input').click(function () {
+                $(".after p").after("<h1>You clicked the after button!</h1>");
+            }); 
+        $('.append input').click(function () {
+            $(".append h1").append("<h1>You just appended!</h1>");
+        });
+        $('.html input').click(function () {
+            $(".html h1").html("<h1>You just added an html element!</h1>");
+        });
+        $('.attr input').click(function () {
+        var obj = $("input").attr("type");
+            $(".attr p").text(obj);
+        });
+        $(".val input")
+            .keyup(function () {
+                var value = $(this).val();
+                $(".val p").text(value);
+            })
+            .keyup();
+        
+        $('.text input').click(function () {
+            $(".text p").text("This is text that added.");
+        }); 
+    });
+     </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="boxes">
+            <div>
+                <h1>click</h1>
+                <div class="click">
+                    <input type="button" value="click">
+                    <p>Click the button to show the click event.</p>
+                </div>
+            </div>
+         </div>
+        <div class="boxes">
+            <div class="hide">
+                <h1>hide</h1>
+                <div>
+                    <input type="button" value="hide">
+                    <p>Click the button to show the hide event.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="show">
+                <h1>show</h1>
+                <div>
+                    <input type="button" value="show">
+                    <p style="display: none">Click the button to show a hidden element.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="toggle">
+                <h1>toggle</h1>
+                <div>
+                    <input type="button" value="toggle">
+                    <p>Click to hide, then click to show an element.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="slideDown">
+                <h1 style="display: none">slideDown</h1>
+                <div>
+                    <input type="button" value="slideDown">
+                    <p>Click the button to make an element slide down.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="slideUp">
+                <h1>slideUP</h1>
+                <div>
+                    <input type="button" value="slideUp">
+                    <p>Click the button to slide an element up.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="slideToggle">
+                <h1>slideToggle</h1>
+                <div>
+                    <input type="button" value="slideToggle">
+                    <p>Click the button to toggle the h1 element up and down.</p>
+                </div>
+            </div>
+        </div>
+            <div class="boxes">
+                <div class="fadeIn">
+                    <h1 style="display: none">fadeIn</h1>
+                    <div>
+                        <input type="button" value="fadeIn">
+                        <p>Click the button to fade in the h1 element.</p>
+                    </div>
+                </div>
+            </div>
+        <div class="boxes">
+            <div class="fadeOut">
+                <h1>fadeOut</h1>
+                <div>
+                    <input type="button" value="fadeOut">
+                    <p>Click the button to fade out the h1 element.</p>
+                </div>
+            </div>
+        </div>
+            <div class="boxes">
+                <div class="addClass">
+                    <h1>addClass</h1>
+                    <div>
+                        <input type="button" value="addClass">
+                        <p>Click the button to add the gold class.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="before">
+                    <h1>before</h1>
+                    <div>
+                        <input type="button" value="before">
+                        <p>Click the button to ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="after">
+                    <h1>after</h1>
+                    <div>
+                        <input type="button" value="after">
+                        <p>Click the button to ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="append">
+                    <h1>append</h1>
+                    <div>
+                        <input type="button" value="append">
+                        <p>Click the button to ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="html">
+                    <h1>html</h1>
+                    <div>
+                        <input type="button" value="html">
+                        <p>Click the button to ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="attr">
+                    <h1>attr</h1>
+                    <div>
+                        <input type="button" value="attr">
+                        <p>Click the button to ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="val">
+                    <h1>val</h1>
+                    <div>
+                        <input type="text" value="enter text here">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+                <div class="boxes">
+                    <div class="text">
+                        <h1>text</h1>
+                        <div>
+                            <input type="button" value="text">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</body>
+
+</html>

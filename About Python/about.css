@@ -1,0 +1,82 @@
+
+#wrapper{
+background-color: cornflowerblue;
+            width: 970px;
+            height: 1100px;
+            margin: 0px auto;
+}
+#topbanner{
+background-color: cornflowerblue;
+}
+.homelogoleft{
+background-color: cornflowerblue;
+display: inline-block;
+}
+.homelogoleft img{
+width: 290px;
+padding-right: 110px;
+}
+.bannerright{
+    display:inline-block;
+    padding-left: 250px;
+    vertical-align: top;
+}
+.textsize{
+background-color: cornflowerblue;
+font-size: 12pt;
+padding-left: 120px;
+}
+.search{
+background-color: rgb(78, 79, 80);
+width: 215px;
+height: 30px;
+border-radius: 5px;
+padding: 12px 2px 0px 3px;
+margin: 0px 0px 10px 70px;
+}
+ul{
+      background-color: rgb(79, 127, 216); 
+        border-radius: 5px;
+        height:25px;
+        width: 700px;
+        margin: 0px auto;
+        padding: 5px 5px 5px 5px;
+}
+li {
+    display: inline-block;
+    color: white;
+    font-size: 16pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#top2column{
+background-color: cornflowerblue;
+
+}
+.centeredulleft{
+    background-color: cornflowerblue;
+}
+.qouteright{
+    background-color: cornflowerblue;
+}
+#centeredzenright{
+    background-color: cornflowerblue;
+}
+.bottom2column{
+    background-color: cornflowerblue;
+}
+#getstartright{
+    background-color: cornflowerblue;
+}
+#appsleft{
+    background-color: cornflowerblue;
+}
+.footer{
+    background-color: cornflowerblue;
+}
+.col3top{
+    background-color: cornflowerblue;
+}
+.copywrite{
+    background-color: cornflowerblue;
+}

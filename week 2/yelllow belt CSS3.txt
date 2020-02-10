@@ -1,0 +1,83 @@
+Exam Code:  
+
+DB4b01a0
+
+
+ 
+Yellow Belt Exam Do's and Don'ts
+
+In preparation for the Yellow Belt exam, you'll need to adhere to the following details.
+
+1.     Plagiarism or Working Together or Asking For Help in any fashion other than for file upload assistance is unacceptable and violates the Code of Conduct.
+
+2.     Keep chatter on Mattermost to a minimum unless it is JavaScript related.
+
+3.     Grading will be based on the following:
+
+○      10-point scale
+
+○      8.0 is a passing score
+
+4.     24 hours to complete the exam
+
+○      Once you click Start, you have 24 hours
+
+○      Please take the exam no later than Monday (giving you an extra day for the holiday)
+
+○      If you have trouble submitting your files, email them to me directly
+
+5.     Use the following on the exam...
+
+○      Your notes, the Learn platform, lecture recordings, your assignments, the web (w3schools, HTML Validator, Stack Overflow)
+
+○      Relative pathing "images/profile.png" vs "file:///C:/Users/..."
+
+○      A 'wrapper' element with a set width and margin: 0px auto;
+
+○      Box model:
+
+■      width, height, margin, padding, border
+
+○      Display property:
+
+■      inline, inline-block, block
+
+■      vertical-align: top
+
+○      Lego Concept
+
+○      Outline (but remove it before submitting exam)
+
+○      Position property (use it very sparingly)
+
+6.     DO NOT USE the following on the exam...
+
+○      Mattermost
+
+○      Float
+
+○      CSS Frameworks
+
+○      Responsive Web Design (i.e. widths %)
+
+7.     Points taken off for the following...
+
+○      Divs with just one element in them (-.25)
+
+○      Poor indentation (HTML) (-.25)
+
+○      Poor CSS syntax (-.25)
+
+○      Lack of alt attribute in img tag (USE THE HTML VALIDATOR!!!) (-.125 - 1)
+
+○      Poor positioning
+
+○      Poor sizing (doesn't have to be pixel-perfect)
+
+○      Using classes and IDs too often. If you're putting an ID or class on every element, find another way.
+
+8.     Do not pay attention to the font-family, but do pay attention to the font-size.
+
+9.     Do not pay attention to exact colors or color gradients, get in the ballpark
+
+10. Learn from this experience! Retakes are encouraged!

@@ -1,0 +1,15 @@
+/* *{
+        outline-color: lightskyblue;
+        outline-style: solid;
+        outline-width: 2px;
+} */
+#wrapper{
+    width: 191px;
+    margin: 15px auto;
+}
+.ninja{
+    width: 181px;
+    height: 42px;
+    outline-style: solid;
+    outline-width: 1px;
+}

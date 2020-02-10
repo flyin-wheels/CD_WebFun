@@ -1,0 +1,14 @@
+@media only screen and (min-width: 3840px){
+     /* we will set these stylings only if the device is a screen with a width of 480px or less */
+     .navbtn {
+         background-color: yellow;
+         width: 100px;
+         height: 50px;
+         display: inline-block;
+     }
+    }
+#wrapper{
+    width: 450px;
+    height: 500px;
+    margin: 0px auto;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jim's Fake Blog</title>
+        <style>
+            thead {
+                color: green;
+            }
+        
+            tbody {
+                color: blue;
+            }
+        
+            tfoot {
+                color: red;
+            }
+        
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color:rgba(168, 204, 219, 0.452)">
+            <h1>My Fake But Real Blog</h1>
+            <img src="http://jamestraubsprogramming.info/title.png" alt="Logo for James Traub's online coding portfolio." height="80" width="205">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aspernatur perspiciatis voluptatem quam placeat, dolorum velit repellat libero 
+            dolores dolor vel consectetur itaque veniam amet doloremque, autem debitis, obcaecati pariatur.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Computer Name</th>
+                            <th>OS</th>
+                            <th>Rev</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pi4</td>
+                            <td>Raspian Buster</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Particle Boron</td>
+                              <td>Particle OS</td>
+                            <td>8</td>
+                           </tr>
+                    </tbody>
+                </table>
+            <ul>
+                <li>Raspberry Pi 4</li>
+                <li>Arduino Uno</li>
+                <li>Particle Electron</li>
+                <li>ESP32CAM</li>
+                <li>Raspberry Pi Zero</li>
+            </ul>
+            <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">Check out this hot board!</a>
+            <form action="process.php" method="post">
+                <h4>Please take this short survey.</h4>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="yes">Yes, sign me up.</label>
+                <input type="radio" id="yes" name="yes">
+                <label for="no">No emails please.</label>
+                <input type="radio" id="no" name="no">
+                <p>How did you hear about us?</p>
+                <input type="checkbox" name="feedback" value="Bike">Facebook<br>
+                <input type="checkbox" name="feedback" value="Car">Instagram<br>
+                <input type="checkbox" name="feedback" value="Car">In-person conversation<br>
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+    </body>
+</html>

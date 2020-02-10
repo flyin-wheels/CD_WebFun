@@ -1,0 +1,66 @@
+      .wrapper{
+            background-color: rgb(69, 47, 71);
+            width: 920px;
+            height: 1100px;
+            margin: 0px auto;
+        }
+            .header{
+            background-color: rgb(240, 240, 240);
+             height: 36px;
+             margin: 0px auto 0px auto;
+            }
+            .headerleft{
+                background-color: rgb(240, 240, 240);
+                margin: 0px 0px 0px 10px;
+                display: inline;
+                text-align: left;
+            }
+            .headerright{
+                background-color: rgb(240, 240, 240);
+                margin: 0px 0px 0px 0px;
+                display: inline;
+                text-align: right;
+            }
+        .topboxes{
+            width: 920px;
+            margin: 0px auto;
+        }
+            .topboxleft{
+                width:450px;
+                margin: 0px 5px 0px 5px;
+            }
+            .topboxright{
+                width:450px;
+                margin: 0px 5px 0px 5px;
+            }
+        .bottomboxes{
+            width: 320px;
+            height: 500px;
+            vertical-align: top;
+            margin: 0px auto;
+        }
+            .botbox1{
+                height: 250px;
+            }
+            .botbox2{
+                height: 250px;
+            }
+            .botbox3 {
+                height: 250px;
+            }
+         .footer{
+                height: 30px;
+                width: 920px;
+                background: grey;
+                margin: 0px auto;
+            }
+        .footer .listbox01 p{
+                background-color: rgb(240, 240, 240);
+                height: 30px;
+                width: 920px;
+                margin: 0px auto;
+            }
+        .footer .listbox02 ul li{
+               margin: auto;
+               display: inline;
+            }

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/home/flyin-wheels/coding dojo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flyin-wheels",
+		"open-in-browser.default": "\t\"settings\": { \t\t\"liveServer.settings.multiRootWorkspaceName\": \"flyin-wheels\", \t\t\"open-in-browser.default\": \"Firefox Dev\" \t}"
+	}
+}
